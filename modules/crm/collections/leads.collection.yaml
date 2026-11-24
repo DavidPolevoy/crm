@@ -1,0 +1,24 @@
+name: leads
+record_title: '{{ name }}'
+description: A prospective client and where the deal stands.
+ids:
+  from: '{{ name | slug }}'
+  pattern: ^[a-z0-9-]+$
+fields:
+  name:
+    type: string
+    required: true
+  status:
+    type: string
+    default: new
+    enum: [new, contacted, negotiating, won, lost]
+  owner:
+    type: string
+  value:
+    type: number
+    description: Expected annual value in USD.
+  next_step:
+    type: string
+  notes:
+    type: markdown
+    body: true

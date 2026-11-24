@@ -1,0 +1,8 @@
+{
+  "name": "crm",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Client leads, requests and payments.",
+  "files": ["collections", "skills"],
+  "dreamteamer": {}
+}

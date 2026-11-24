@@ -1,0 +1,18 @@
+name: payments
+record_title: '{{ name }}'
+description: A payment due from or made by a client.
+ids:
+  from: '{{ name | slug }}'
+  pattern: ^[a-z0-9-]+$
+fields:
+  name:
+    type: string
+    required: true
+  lead:
+    type: leads
+  amount:
+    type: number
+  status:
+    type: string
+    default: due
+    enum: [due, paid, overdue]

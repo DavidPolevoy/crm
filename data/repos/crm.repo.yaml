@@ -1,0 +1,9 @@
+name: crm
+url: ${env:SANDBOX_ORIGINS}/crm.git
+path: ${workspaceFolder}
+class: ledger
+production_branch: main
+description: This repo (ledger).
+created: '2026-11-24T09:02:55+02:00'
+ref: main
+visibility: private
