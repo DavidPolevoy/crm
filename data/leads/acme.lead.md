@@ -1,6 +1,6 @@
 ---
 status: negotiating
-owner: alice
+owner: bob
 value: 120000
 next_step: send proposal Friday
 name: Acme
