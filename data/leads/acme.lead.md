@@ -1,5 +1,5 @@
 ---
-status: contacted
+status: negotiating
 owner: alice
 value: 120000
 next_step: Send SSO roadmap
