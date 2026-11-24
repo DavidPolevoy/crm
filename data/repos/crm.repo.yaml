@@ -1,5 +1,5 @@
 name: crm
-url: ${env:SANDBOX_ORIGINS}/crm.git
+url: https://github.com/DavidPolevoy/crm.git
 path: ${workspaceFolder}
 class: ledger
 production_branch: main

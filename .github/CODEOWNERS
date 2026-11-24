@@ -1,0 +1,7 @@
+# leads and client-requests merge on auto-merge once dreamteamer-check passes.
+/data/payments/    @DavidPolevoy @DavdPolevoy
+/governance.yaml   @DavidPolevoy @DavdPolevoy
+/modules/          @DavidPolevoy @DavdPolevoy
+/package.json      @DavidPolevoy @DavdPolevoy
+/.claude/          @DavidPolevoy @DavdPolevoy
+/bin/              @DavidPolevoy @DavdPolevoy
