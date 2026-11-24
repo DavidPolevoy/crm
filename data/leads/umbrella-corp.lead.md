@@ -1,5 +1,5 @@
 ---
-status: lost
+status: negotiating
 owner: alice
 value: 60000
 name: Umbrella Corp
