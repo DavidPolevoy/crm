@@ -1,5 +1,5 @@
 ---
-status: new
+status: contacted
 owner: bob
 value: 45000
 name: Globex
