@@ -16,3 +16,6 @@ fields:
     type: string
     default: due
     enum: [due, paid, overdue]
+  due_date:
+    type: date
+    description: When the payment is due. A due payment past this date shows as late.
